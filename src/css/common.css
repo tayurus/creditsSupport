@@ -1,0 +1,19 @@
+@font-face {
+    src: url('fonts/Montserrat-Regular.ttf');
+    font-family: Montserrat;
+}
+
+*{
+    box-sizing: border-box;
+    transition: .3s;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat;
+}
+
+a:not(.button):hover{
+    color: #fe0000 !important;
+}

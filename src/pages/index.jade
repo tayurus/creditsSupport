@@ -1,0 +1,54 @@
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        include ../blocks/header/header.jade
+            
+        main
+            section.container.container_width_full.container_background_planet
+                hgroup.title
+                    h2.title__text How can we help?
+                    h3.title__subtext Whether you’re looking for self-help resources, strategies to optimize your systems, or expert assistance, we’re here for you every step of the way.
+                
+                a.button.button_blue(href="#") Get a free consultation
+                
+                .row.row_questions
+                    .question
+                        img.question__img(src="img/monitor.png")
+                        h4.question__title Credits monitor
+                        h5.question__subtitle How it work?
+                        .question__text Read use cases
+                        a.button.button_question(href="#") more
+                    .question
+                        img.question__img(src="img/wallet.png")
+                        h4.question__title Web wallet
+                        h5.question__subtitle How it work?
+                        .question__text Read use cases
+                        a.button.button_question(href="#") more
+                    .question
+                        img.question__img(src="img/node.png")
+                        h4.question__title Node
+                        h5.question__subtitle How it work?
+                        .question__text Read use cases
+                        a.button.button_question(href="#") more
+                    .question
+                        img.question__img(src="img/security.png")
+                        h4.question__title Security
+                        h5.question__subtitle How it work?
+                        .question__text Read use cases
+                        a.button.button_question(href="#") more
+                    .question
+                        img.question__img(src="img/developers.png")
+                        h4.question__title For developers
+                        h5.question__subtitle How it work?
+                        .question__text Read use cases
+                        a.button.button_question(href="#") more
+                    .question
+                        img.question__img(src="img/bug.png")
+                        h4.question__title Bug bounty
+                        h5.question__subtitle How it work?
+                        .question__text Read use cases
+                        a.button.button_question(href="#") more
+                        
+        
+        include ../blocks/footer/footer.jade

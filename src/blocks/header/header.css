@@ -1,0 +1,110 @@
+.header {
+    background-color: #000;
+    padding: 5px 0px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 9999;
+}
+
+.header__empty{
+    min-height: 90px;
+}
+
+.header__wrapper {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.header__logo {
+    width: 316px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: relative;
+}
+
+.header__logo::after{
+    position: absolute;
+    content: "fast cryptocurrency & blockchain";
+    font-size: 10px;
+    color: #fff;
+    font-family: Montserrat;
+    bottom: 18px;
+    left: 35px;
+    font-variant: small-caps;
+}
+
+.header__logo img{
+    margin-right: 10px;
+}
+
+.header__title {
+    color: #ffffff;
+    font-size: 38px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.header__title-explanation{
+    color: #7ac8ec;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    position: relative;
+    top: -10px;
+}
+
+.header__menu {
+    max-width: 285px;
+    min-width: 285px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 20px;
+}
+
+
+.header__item {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header__item-wrapper{
+    position: relative;
+}
+
+.header__submenu_width_100{
+    width: 100px;
+}
+
+
+@media (max-width:1200px), (max-device-width:1200px) {
+    .header__wrapper{
+        justify-content: space-around;
+    }
+}
+
+@media (max-width:400px),(max-device-width:400px) {
+    .header__title{
+        font-size: 28px;
+    }
+
+    .header__title-explanation{
+        top: -3px;
+    }
+
+    .header__logo::after{
+        bottom: 5px;
+        left: 70px;
+    }
+}
