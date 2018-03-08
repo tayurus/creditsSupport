@@ -87,10 +87,40 @@
     width: 100px;
 }
 
+.header__form{
+    width: 300px;
+    margin: 0px 10px;
+    background: #4d4d4d;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.header__search{
+    color: #afafaf;
+    border: none;
+    background: #4d4d4d;
+    width: 100%;
+}
+
+.header__submit{
+    width: 24px;
+    height: 24px;
+    background: #4d4d4d url("img/search.svg") no-repeat center/ cover;
+    border: none;
+    cursor: pointer;
+    font-size: 0px;
+}
+
 
 @media (max-width:1200px), (max-device-width:1200px) {
     .header__wrapper{
         justify-content: space-around;
+    }
+}
+
+@media (max-width:675px),(max-device-width:675px) {
+    .header__form{
+        margin: 0px 0px 10px 0px;
     }
 }
 
