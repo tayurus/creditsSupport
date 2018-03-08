@@ -1,0 +1,28 @@
+.navigation{
+    padding: 5px;
+}
+
+.navigation__item{
+    color: #9a9999;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0px 5px;
+    position: relative;
+    text-decoration: none;
+}
+
+.navigation .navigation__item:not(:last-child)::after{
+    content: "/";
+    position: absolute;
+    right: -7px;
+    color: #9a9999;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.navigation__item_current{
+    color: #000000;
+    font-size: 12px;
+    line-height: 24px;
+    margin: 0px 5px;
+}

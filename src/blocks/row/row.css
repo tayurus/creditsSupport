@@ -10,3 +10,8 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.row_spaceAround{
+    justify-content: space-around;
+    flex-wrap: wrap;
+}

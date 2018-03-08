@@ -12,8 +12,14 @@ body{
     margin: 0px;
     padding: 0px;
     font-family: Montserrat;
+    background-color: #f6f6f6;
 }
 
 a:not(.button):hover{
     color: #fe0000 !important;
+}
+
+details{
+    padding-left: 30px;
+    margin-bottom: 10px;
 }
