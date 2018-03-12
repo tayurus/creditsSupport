@@ -3,23 +3,51 @@
     font-family: Montserrat;
 }
 
-*{
+@font-face {
+    src: url('fonts/Montserrat-SemiBold.otf');
+    font-family: "Montserrat - Semi Bold";
+}
+
+* {
     box-sizing: border-box;
     transition: .3s;
 }
 
-body{
+body {
     margin: 0px;
     padding: 0px;
     font-family: Montserrat;
     background-color: #f6f6f6;
 }
 
-a:not(.button):hover{
+a:not(.button):hover {
     color: #fe0000 !important;
 }
 
-details{
+details {
     padding-left: 30px;
-    margin-bottom: 10px;
+    margin: 10px 0px;
+}
+
+summary{
+    position: relative;
+    padding-left: 16px;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary:after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    left: 0px;
+    top: 4px;
+    height: 12px;
+    background: url("img/left-arrow.png") no-repeat center / cover;
+}
+
+details[open] > summary:after {
+    transform: rotate(90deg);
 }

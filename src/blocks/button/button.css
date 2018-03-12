@@ -31,29 +31,29 @@
     text-transform: uppercase;
     background-color: #fff;
     padding: 5px 26px;
-    border: 1px solid #000000;
     border-radius: 25px;
 }
 
 .button_question:hover{
     background-color: #000;
     color: #fff;
+    background-color: #0095d9;
 }
 
 .button_download{
-    background: #fff url("img/download.png") no-repeat 85% center / 26px 28px;
+    background: #fff url("img/download.svg") no-repeat 93% center / 26px 28px;
     border-radius: 25px;
     border: 2px solid #0095d9;
-    padding: 18px 72px 18px 31px;
+    padding: 13px 50px 13px 20px !important;
     color: #0095d9;
     text-transform: uppercase;
     margin: 5px;
 }
 
 .button_download:hover{
-    background: #000 url("img/download.png") no-repeat 85% center / 26px 28px;
+    background: #fff url("img/download-white.svg") no-repeat 93% center / 26px 28px;
     color: #fff;
-    border: 2px solid #000;
+    background-color: #0095d9;
 }
 
 @media (max-width:370px),(max-device-width:370px) {

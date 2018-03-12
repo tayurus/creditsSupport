@@ -22,7 +22,7 @@
 }
 
 .header__logo {
-    width: 316px;
+    width: 360px;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -31,13 +31,12 @@
 
 .header__logo::after{
     position: absolute;
-    content: "fast cryptocurrency & blockchain";
+    content: "Fast cryptocurrency & blockchain";
     font-size: 10px;
     color: #fff;
-    font-family: Montserrat;
     bottom: 18px;
-    left: 35px;
-    font-variant: small-caps;
+    left: 44px;
+    font-family: Montserrat;
 }
 
 .header__logo img{
@@ -53,12 +52,13 @@
 }
 
 .header__title-explanation{
-    color: #7ac8ec;
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 26px;
+    font-weight: 700;
     line-height: 24px;
     position: relative;
-    top: -10px;
+    top: -8px;
+    color: #3ac9ee;
+    font-family: "Montserrat - Semi Bold";
 }
 
 .header__menu {
@@ -91,15 +91,17 @@
     width: 300px;
     margin: 0px 10px;
     background: #4d4d4d;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 10px;
+    background-color: #f2f2f2;
 }
 
 .header__search{
-    color: #afafaf;
+    color: #000;
     border: none;
     background: #4d4d4d;
     width: 100%;
+    background-color: #f2f2f2;
 }
 
 .header__submit{
@@ -109,6 +111,7 @@
     border: none;
     cursor: pointer;
     font-size: 0px;
+    background-color: #f2f2f2;
 }
 
 
@@ -129,8 +132,13 @@
         font-size: 28px;
     }
 
+    .header__logo{
+        width: 315px;
+    }
+
     .header__title-explanation{
-        top: -3px;
+        top: 0px;
+        font-size: 21px;
     }
 
     .header__logo::after{
