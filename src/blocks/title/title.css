@@ -16,6 +16,11 @@
     text-align: left;
 }
 
+.container__text_bold{
+    font-size: 18px;
+    font-weight: bold;
+}
+
 .title__text_small{
     color: #000000;
     font-size: 24px;

@@ -1,0 +1,35 @@
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        include ../blocks/header/header.jade
+            
+        main
+        
+            section.container.container_categories-paddingTop_90
+                .navigation
+                    a.navigation__item(href="#") Главная страница
+                    a.navigation__item(href="#") Категория
+                    a.navigation__item(href="#").navigation__item_current Страница
+                .title__text.title__text_left.title__text_black Contact
+                
+                .container.container_text
+                    .container__text.container__text_bold Lorem ipsum dolor sit amet
+                    
+                    form(action="", method="")
+                        .input
+                            label(class="input__label", for="name") Name*:
+                            input(type="text", class="input__field")
+                            
+                        .input
+                            label(class="input__label", for="name") Telephone, Email, Skype, Whatsapp etc*:
+                            input(type="text", class="input__field")
+                            
+                        .input
+                            label(class="input__label", for="name") Message:
+                            textarea( class="input__textarea")
+                        
+                        button.button.button_blue.button_hover_black Send
+                    
+                        
+        include ../blocks/footer/footer.jade

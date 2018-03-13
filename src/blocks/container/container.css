@@ -7,14 +7,31 @@
     padding-bottom: 20px;
 }
 
+.container_paddingBottom_400{
+    padding-bottom: 400px !important;
+}
+
 .container_width_full{
     width: 100%;
     max-width: 100%;
 }
 
+.container_paddingTop_70{
+    padding-top: 70px;
+}
+
+.container_link{
+    padding: 10px 10px 10px 50px;
+    margin-bottom: 20px;
+}
+
 .container_background_planet{
     padding: 100px 10px 100px 10px;
     background: #000 url(img/planet.png) no-repeat center/cover;
+}
+
+.container_categories-paddingTop_90{
+    padding-top: 90px;
 }
 
 .container_categories-articles{
@@ -25,6 +42,20 @@
 
 .container_categories{
     width: 300px;
+}
+
+.container__title_marginTop_0{
+    margin-top: 0px;
+}
+
+.container__title_paddingBottom_30{
+    padding-bottom: 30px;
+}
+
+.container__title_small{
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
 }
 
 .container__category-link{
@@ -65,6 +96,10 @@
     .container_categories{
         display: none;
     }
+}
 
-
+@media (max-width:500px),(max-device-width:500px) {
+    .container_text{
+        padding: 10px;
+    }
 }

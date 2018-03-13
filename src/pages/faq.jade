@@ -1,0 +1,33 @@
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        include ../blocks/header/header.jade
+            
+        main
+        
+            section.container.container_categories-paddingTop_90
+                .navigation
+                    a.navigation__item(href="#") Главная страница
+                    a.navigation__item(href="#") Категория
+                    a.navigation__item(href="#").navigation__item_current Страница
+                .title__text.title__text_left.title__text_black FAQ
+                
+                .container.container_text
+                    .container__text Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amets
+                    
+                    p
+                        .container__text_bold Вопрос
+                        .container__text Ответ
+                    p
+                        .container__text_bold Вопрос
+                        .container__text Ответ
+                    p
+                        .container__text_bold Вопрос
+                        .container__text Ответ
+                    p
+                        .container__text_bold Вопрос
+                        .container__text Ответ
+                    
+                        
+        include ../blocks/footer/footer.jade

@@ -6,9 +6,16 @@
     color: #9a9999;
     font-size: 12px;
     line-height: 24px;
-    margin: 0px 5px;
     position: relative;
     text-decoration: none;
+}
+
+.navigation__item:not(:first-child){
+    margin: 0px 10px;
+}
+
+.navigation__item:last-child{
+    margin: 0px;
 }
 
 .navigation .navigation__item:not(:last-child)::after{

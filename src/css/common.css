@@ -20,6 +20,17 @@ body {
     background-color: #f6f6f6;
 }
 
+form{
+    width: 100%;
+    margin: 0px auto;
+}
+
+img{
+    max-width: 80%;
+    display: block;
+    margin: 0px auto;
+}
+
 a:not(.button):hover {
     color: #fe0000 !important;
 }
