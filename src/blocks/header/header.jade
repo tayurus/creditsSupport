@@ -9,8 +9,44 @@ header.header
             input(type="search", class="header__search", placeholder="Search")
             input(type="submit", class="header__submit") 
         
+        .header__burger
+            div
+            div
+            div
+        
         nav.header__menu
             a.header__item("href=#") F.A.Q
             a.header__item("href=#") DOCUMENTS
             a.header__item("href=#") CONTACTS
+            
+        
+        
+        
 .header__empty
+
+.container.container_categories-mobile
+    h2.container__title Категории
+    .category
+        .category__wrapper
+            .category__arrow
+            a.category__title(href="#") Документация
+        .categories__links
+            a.category__link(href="#") Статья 1
+            a.category__link(href="#") Статья 2
+            a.category__link(href="#") Статья 3
+            .category
+                .category__wrapper
+                    .category__arrow
+                    a.category__title(href="#") Подкатегория
+                .categories__links
+                    a.category__link(href="#") Статья 1_1
+                    a.category__link(href="#") Статья 2_1
+                    a.category__link(href="#") Статья 3_1
+            .category
+                .category__wrapper
+                    .category__arrow
+                    a.category__title(href="#") Подкатегория
+                .categories__links
+                    a.category__link(href="#") Статья 1_1
+                    a.category__link(href="#") Статья 2_1
+                    a.category__link(href="#") Статья 3_1

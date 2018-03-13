@@ -1,0 +1,38 @@
+.category  .category{
+    padding-left: 25px;
+}
+
+.category__wrapper{
+    display: flex;
+    align-items: center;
+}
+
+
+.category__arrow{
+    width: 12px;
+    height: 12px;
+    background: url("img/left-arrow.png") no-repeat center / cover;
+    margin-right: 10px;
+}
+
+.category__arrow:hover{
+    cursor: pointer;
+}
+
+.category__title{
+    color: #010101;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.category__link{
+    color: #0786c1;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    padding-left: 30px;
+    margin: 10px 0px;
+}

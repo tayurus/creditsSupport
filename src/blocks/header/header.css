@@ -4,7 +4,7 @@
     position: fixed;
     width: 100%;
     top: 0px;
-    z-index: 9999;
+    z-index: 5;
 }
 
 .header__empty{
@@ -20,6 +20,8 @@
     margin: auto;
     flex-wrap: wrap;
 }
+
+
 
 .header__logo {
     width: 360px;
@@ -89,7 +91,7 @@
 
 .header__form{
     width: 300px;
-    margin: 0px 10px;
+    margin: 10px;
     background: #4d4d4d;
     border-radius: 5px;
     padding: 10px;
@@ -118,6 +120,20 @@
 @media (max-width:1200px), (max-device-width:1200px) {
     .header__wrapper{
         justify-content: space-around;
+    }
+}
+
+@media (max-width:992px),(max-device-width:992px) {
+    .header__burger{
+        width: 30px;
+        cursor: pointer;
+        margin: 5px;
+    }
+
+    .header__burger > div{
+        height: 3px;
+        background-color: #4d4d4d;
+        margin-bottom: 5px;
     }
 }
 

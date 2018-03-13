@@ -14,23 +14,17 @@
 
 .container_background_planet{
     padding: 100px 10px 100px 10px;
-    background: url("img/planet.png") no-repeat center / cover;
+    background: #000 url(img/planet.png) no-repeat center/cover;
 }
 
 .container_categories-articles{
     display: flex;
     justify-content: space-between;
+    padding-top: 80px;
 }
 
 .container_categories{
     width: 300px;
-}
-
-.container__category-title{
-    color: #010101;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 20px;
 }
 
 .container__category-link{
@@ -50,9 +44,27 @@
     line-height: 24px;
 }
 
-@media (max-width:1000px),(max-device-width:1000px) {
+/* @media (max-width:1000px),(max-device-width:1000px) {
     .container_categories-articles{
         flex-direction: column;
         padding-top: 65px;
     }
+} */
+
+.container_categories-mobile{
+    display: none;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    z-index: 1000;
+    background-color: #ccc;
+    width: 300px;
+}
+
+@media (max-width:992px),(max-device-width:992px) {
+    .container_categories{
+        display: none;
+    }
+
+
 }

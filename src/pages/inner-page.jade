@@ -6,34 +6,36 @@ html(lang="en")
             
         main
         
+        
+                
         section.container.container_categories-articles
             .container.container_categories
                 h2.container__title Категории
-                details
-                    summary.container__category-title Документация
-                    a.container__category-link(href="#") Статья 1
-                    a.container__category-link(href="#") Статья 1
-                    
-                details
-                    summary.container__category-title Категория первого уровня
-                    details
-                        summary.container__category-title Категория второго уровня с подкатегориями
-                        a.container__category-link(href="#") Статья 1
-                        a.container__category-link(href="#") Статья 1
-                    details
-                        summary.container__category-title Категория второго уровня с подкатегориями
-                        a.container__category-link(href="#") Статья 1
-                        a.container__category-link(href="#") Статья 1
-                        
-                details
-                    summary.container__category-title Категория первого уровня
-                    a.container__category-link(href="#") Статья 1
-                    a.container__category-link(href="#") Статья 1
-                    
-                details
-                    summary.container__category-title Категория первого уровня
-                    a.container__category-link(href="#") Статья 1
-                    a.container__category-link(href="#") Статья 1
+                .category
+                    .category__wrapper
+                        .category__arrow
+                        a.category__title(href="#") Документация
+                    .categories__links
+                        a.category__link(href="#") Статья 1
+                        a.category__link(href="#") Статья 2
+                        a.category__link(href="#") Статья 3
+                        .category
+                            .category__wrapper
+                                .category__arrow
+                                a.category__title(href="#") Подкатегория
+                            .categories__links
+                                a.category__link(href="#") Статья 1_1
+                                a.category__link(href="#") Статья 2_1
+                                a.category__link(href="#") Статья 3_1
+                        .category
+                            .category__wrapper
+                                .category__arrow
+                                a.category__title(href="#") Подкатегория
+                            .categories__links
+                                a.category__link(href="#") Статья 1_1
+                                a.category__link(href="#") Статья 2_1
+                                a.category__link(href="#") Статья 3_1
+
                     
             article.container.container_article
                 .navigation

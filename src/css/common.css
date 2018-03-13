@@ -24,14 +24,25 @@ a:not(.button):hover {
     color: #fe0000 !important;
 }
 
+a{
+    text-decoration: none;
+}
+
 details {
     padding-left: 30px;
     margin: 10px 0px;
 }
 
+/* details[open] > summary{
+    color: tomato;
+}
+
 summary{
+    outline: none;
+    cursor: pointer;
     position: relative;
     padding-left: 16px;
+    user-select: none;
 }
 
 summary::-webkit-details-marker {
@@ -50,4 +61,4 @@ summary:after {
 
 details[open] > summary:after {
     transform: rotate(90deg);
-}
+} */

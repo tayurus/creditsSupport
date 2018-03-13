@@ -33,7 +33,7 @@ gulp.task("build", function() {
     let autoprefixBrowsers = ['> 1%', 'last 2 versions', 'firefox >= 4', 'safari 7', 'safari 8', 'IE 8', 'IE 9', 'IE 10', 'IE 11'];
     gulp.src(src.css)
         .pipe(concat("styles.css"))
-        .pipe(cleanCSS())
+        // .pipe(cleanCSS())
         .pipe(autoprefixer({
             browsers: autoprefixBrowsers
         }))
