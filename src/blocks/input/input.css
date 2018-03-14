@@ -17,6 +17,9 @@
 }
 
 .input__textarea{
+    min-height: 150px;
+    border: 1px solid #ccc;
+    padding: 10px;
     width: 100%;
     height: 200px;
     resize: none;

@@ -1,4 +1,4 @@
-.button{
+.button, [title="button"]{
     padding: 10px 22px;
     text-align: center;
     display: block;
@@ -8,7 +8,7 @@
     text-decoration: none;
 }
 
-.button_blue{
+.button_blue,[title="button"]{
     border: none;
     border-radius: 31px;
     background-color: #0095d9;
@@ -38,12 +38,14 @@
     background-color: #fff;
     padding: 5px 26px;
     border-radius: 25px;
+    border: 1px solid #000;
 }
 
 .button_question:hover{
     background-color: #000;
     color: #fff;
     background-color: #0095d9;
+    border: 1px solid #0095d9;
 }
 
 .button_download{

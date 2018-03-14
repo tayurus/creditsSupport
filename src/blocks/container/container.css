@@ -1,5 +1,5 @@
 .container{
-    max-width: 1210px;
+    max-width: 950px;
     margin: 0px auto;
     padding-left:8px;
     padding-right:8px;
@@ -30,18 +30,16 @@
     background: #000 url(img/planet.png) no-repeat center/cover;
 }
 
-.container_categories-paddingTop_90{
-    padding-top: 90px;
-}
-
 .container_categories-articles{
     display: flex;
     justify-content: space-between;
-    padding-top: 80px;
+    align-items: flex-start;
 }
 
 .container_categories{
     width: 300px;
+    position: sticky;
+    top: 100px;
 }
 
 .container__title_marginTop_0{
@@ -75,6 +73,10 @@
     line-height: 24px;
 }
 
+.container_article{
+    flex-grow: 1;
+}
+
 /* @media (max-width:1000px),(max-device-width:1000px) {
     .container_categories-articles{
         flex-direction: column;
@@ -95,6 +97,12 @@
 @media (max-width:992px),(max-device-width:992px) {
     .container_categories{
         display: none;
+    }
+}
+
+@media (max-width:760px),(max-device-width:760px) {
+    .container_categories-articles{
+        padding-top: 80px;
     }
 }
 

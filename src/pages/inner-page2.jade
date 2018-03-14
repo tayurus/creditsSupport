@@ -5,35 +5,64 @@ html(lang="en")
         include ../blocks/header/header.jade
             
         main
-        
-            section.container.container_categories-paddingTop_90
-                .navigation
-                    a.navigation__item(href="#") Главная страница
-                    a.navigation__item(href="#") Категория
-                    a.navigation__item(href="#").navigation__item_current Страница
-                .title__text.title__text_left.title__text_black Contact
-                
-                .container.container_text.container_paddingBottom_400
-                    .container__title.container__title_small.container__title_paddingBottom_30 How we can help?
-                    .container__text.container__text_bold Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
+            
+            section.container.container_categories-articles
+            
+                .container.container_categories
+                    h2.container__title.container__title_marginTop_0 Категории
+                    .category
+                        .category__wrapper
+                            .category__arrow
+                            a.category__title(href="#") Документация
+                        .categories__links
+                            a.category__link(href="#") Статья 1
+                            a.category__link(href="#") Статья 2
+                            a.category__link(href="#") Статья 3
+                            .category
+                                .category__wrapper
+                                    .category__arrow
+                                    a.category__title(href="#") Подкатегория
+                                .categories__links
+                                    a.category__link(href="#") Статья 1_1
+                                    a.category__link(href="#") Статья 2_1
+                                    a.category__link(href="#") Статья 3_1
+                            .category
+                                .category__wrapper
+                                    .category__arrow
+                                    a.category__title(href="#") Подкатегория
+                                .categories__links
+                                    a.category__link(href="#") Статья 1_1
+                                    a.category__link(href="#") Статья 2_1
+                                    a.category__link(href="#") Статья 3_1
+
+                article.container.container_article
+                    .navigation
+                        a.navigation__item(href="#") Главная страница
+                        a.navigation__item(href="#") Категория
+                        a.navigation__item(href="#").navigation__item_current Страница
+                    .title__text.title__text_left.title__text_black Contact
                     
-                    ul
-                        li Прикладной уровень 1
-                        li Прикладной уровень 2
-                        li Прикладной уровень 3
+                    .container.container_text.container_paddingBottom_400
+                        .container__title.container__title_small.container__title_paddingBottom_30 How we can help?
+                        .container__text.container__text_bold Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est 
                         
-                    .container_link    
-                        a.link.link_big(href="#") Документация
-                        .container__text Все самое интересное
-                    .container_link    
-                        a.link.link_big(href="#") Руководство
-                        .container__text Ценное руководство и указания
-                    .container_link    
-                        a.link.link_big(href="#") Статьи
-                        .container__text Чтобы читать
-                    .container_link    
-                        a.link.link_big(href="#") Поддержка
-                        .container__text Чтобы поддерживать
+                        ul
+                            li Прикладной уровень 1
+                            li Прикладной уровень 2
+                            li Прикладной уровень 3
+                            
+                        .container_link    
+                            a.link.link_big(href="#") Документация
+                            .container__text Все самое интересное
+                        .container_link    
+                            a.link.link_big(href="#") Руководство
+                            .container__text Ценное руководство и указания
+                        .container_link    
+                            a.link.link_big(href="#") Статьи
+                            .container__text Чтобы читать
+                        .container_link    
+                            a.link.link_big(href="#") Поддержка
+                            .container__text Чтобы поддерживать
                     
                         
         include ../blocks/footer/footer.jade

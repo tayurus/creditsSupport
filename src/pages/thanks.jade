@@ -6,16 +6,44 @@ html(lang="en")
             
         main
         
-            section.container.container_categories-paddingTop_90
-                .navigation
-                    a.navigation__item(href="#") Главная страница
-                    a.navigation__item(href="#") Категория
-                    a.navigation__item(href="#").navigation__item_current Страница
-                .title__text.title__text_left.title__text_black Contact
-                
-                .container.container_text.container_paddingBottom_400
-                    .container__title.container__title_small.container__title_paddingBottom_30 Thank you for your messagge!
-                    .container__text.container__text_bold We will contact you in the near future.
+            section.container.container_categories-articles
+                .container.container_categories
+                    h2.container__title.container__title_marginTop_0 Категории
+                    .category
+                        .category__wrapper
+                            .category__arrow
+                            a.category__title(href="#") Документация
+                        .categories__links
+                            a.category__link(href="#") Статья 1
+                            a.category__link(href="#") Статья 2
+                            a.category__link(href="#") Статья 3
+                            .category
+                                .category__wrapper
+                                    .category__arrow
+                                    a.category__title(href="#") Подкатегория
+                                .categories__links
+                                    a.category__link(href="#") Статья 1_1
+                                    a.category__link(href="#") Статья 2_1
+                                    a.category__link(href="#") Статья 3_1
+                            .category
+                                .category__wrapper
+                                    .category__arrow
+                                    a.category__title(href="#") Подкатегория
+                                .categories__links
+                                    a.category__link(href="#") Статья 1_1
+                                    a.category__link(href="#") Статья 2_1
+                                    a.category__link(href="#") Статья 3_1
+        
+                article.container.container_article
+                    .navigation
+                        a.navigation__item(href="#") Главная страница
+                        a.navigation__item(href="#") Категория
+                        a.navigation__item(href="#").navigation__item_current Страница
+                    .title__text.title__text_left.title__text_black Contact
+                    
+                    .container.container_text.container_paddingBottom_400
+                        .container__title.container__title_small.container__title_paddingBottom_30 Thank you for your messagge!
+                        .container__text.container__text_bold We will contact you in the near future.
 
         
         

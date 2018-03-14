@@ -5,31 +5,58 @@ html(lang="en")
         include ../blocks/header/header.jade
             
         main
-        
-            section.container.container_categories-paddingTop_90
-                .navigation
-                    a.navigation__item(href="#") Главная страница
-                    a.navigation__item(href="#") Категория
-                    a.navigation__item(href="#").navigation__item_current Страница
-                .title__text.title__text_left.title__text_black Contact
-                
-                .container.container_text
-                    .container__text.container__text_bold Lorem ipsum dolor sit amet
+        section.container.container_categories-articles
+            .container.container_categories(hidden="true")
+                h2.container__title.container__title_marginTop_0 Категории
+                .category
+                    .category__wrapper
+                        .category__arrow
+                        a.category__title(href="#") Документация
+                    .categories__links
+                        a.category__link(href="#") Статья 1
+                        a.category__link(href="#") Статья 2
+                        a.category__link(href="#") Статья 3
+                        .category
+                            .category__wrapper
+                                .category__arrow
+                                a.category__title(href="#") Подкатегория
+                            .categories__links
+                                a.category__link(href="#") Статья 1_1
+                                a.category__link(href="#") Статья 2_1
+                                a.category__link(href="#") Статья 3_1
+                        .category
+                            .category__wrapper
+                                .category__arrow
+                                a.category__title(href="#") Подкатегория
+                            .categories__links
+                                a.category__link(href="#") Статья 1_1
+                                a.category__link(href="#") Статья 2_1
+                                a.category__link(href="#") Статья 3_1
+            article.container.container_article                
+                section.container
+                    .navigation
+                        a.navigation__item(href="#") Главная страница
+                        a.navigation__item(href="#") Категория
+                        a.navigation__item(href="#").navigation__item_current Страница
+                    .title__text.title__text_left.title__text_black Contact
                     
-                    form(action="", method="")
-                        .input
-                            label(class="input__label", for="name") Name*:
-                            input(type="text", class="input__field")
-                            
-                        .input
-                            label(class="input__label", for="name") Telephone, Email, Skype, Whatsapp etc*:
-                            input(type="text", class="input__field")
-                            
-                        .input
-                            label(class="input__label", for="name") Message:
-                            textarea( class="input__textarea")
+                    .container.container_text
+                        .container__text.container__text_bold Lorem ipsum dolor sit amet
                         
-                        button.button.button_blue.button_hover_black Send
+                        form(action="", method="")
+                            .input
+                                label(class="input__label", for="name") Name*:
+                                input(type="text", class="input__field")
+                                
+                            .input
+                                label(class="input__label", for="name") Telephone, Email, Skype, Whatsapp etc*:
+                                input(type="text", class="input__field")
+                                
+                            .input
+                                label(class="input__label", for="name") Message:
+                                textarea( class="input__textarea", id="text")
+                            
+                            button.button.button_blue.button_hover_black Send
                     
                         
         include ../blocks/footer/footer.jade
