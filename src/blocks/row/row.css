@@ -8,6 +8,7 @@
     max-width: 860px;
     margin: 0px auto;
     flex-wrap: wrap;
+    align-items: stretch;
     justify-content: space-around;
 }
 

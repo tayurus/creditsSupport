@@ -40,6 +40,8 @@
     width: 300px;
     position: sticky;
     top: 100px;
+    overflow-y: auto;
+    height: calc(100vh - 170px);
 }
 
 .container__title_marginTop_0{
