@@ -1,11 +1,8 @@
 $(document).ready(function() {
 
-    $(".header__item-hasSubmenu").click(function(event) {
-        $(event.currentTarget).next().slideToggle(200);
-    });
-
-    $(".header__burger").click(function(){
-        $(".container_categories-mobile").toggle(300);
+    $(".header__burger, .container__close").click(function(){
+        $(".header__burger").toggleClass("open");
+        $(".container_categories-mobile").slideToggle(300);
     })
 
 })

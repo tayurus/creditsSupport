@@ -7,7 +7,7 @@ html(lang="en")
         main
         
             section.container.container_categories-articles
-                .container.container_categories(hidden="true")
+                .container.container_categories
                     h2.container__title.container__title_marginTop_0 Категории
                     .category
                         .category__wrapper
@@ -34,28 +34,28 @@ html(lang="en")
                                     a.category__link(href="#") Статья 2_1
                                     a.category__link(href="#") Статья 3_1
                                     
-            article.container.container_article
-                .navigation
-                    a.navigation__item(href="#") Главная страница
-                    a.navigation__item(href="#") Категория
-                    a.navigation__item(href="#").navigation__item_current Страница
-                .title__text.title__text_left.title__text_black FAQ
-                
-                .container.container_text
-                    .container__text Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amets
+                article.container.container_article.container_width_85
+                    .navigation
+                        a.navigation__item(href="#") Главная страница
+                        a.navigation__item(href="#") Категория
+                        a.navigation__item(href="#").navigation__item_current Страница
+                    .title__text.title__text_left.title__text_black FAQ
                     
-                    p
-                        .container__text_bold Вопрос
-                        .container__text Ответ
-                    p
-                        .container__text_bold Вопрос
-                        .container__text Ответ
-                    p
-                        .container__text_bold Вопрос
-                        .container__text Ответ
-                    p
-                        .container__text_bold Вопрос
-                        .container__text Ответ
-                    
+                    .container.container_text
+                        .container__text Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amets
+                        
+                        p
+                            .container__text_bold Вопрос
+                            .container__text Ответ
+                        p
+                            .container__text_bold Вопрос
+                            .container__text Ответ
+                        p
+                            .container__text_bold Вопрос
+                            .container__text Ответ
+                        p
+                            .container__text_bold Вопрос
+                            .container__text Ответ
+                        
                         
         include ../blocks/footer/footer.jade

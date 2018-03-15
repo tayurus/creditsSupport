@@ -24,7 +24,6 @@
 
 
 .header__logo {
-    width: 360px;
     height: 60px;
     margin-bottom: 10px;
     display: flex;
@@ -39,7 +38,7 @@
     font-size: 10px;
     color: #fff;
     bottom: 2px;
-    left: 52px;
+    left: 44px;
     font-family: Montserrat;
 }
 
@@ -93,7 +92,7 @@
 
 .header__form{
     width: 300px;
-    margin: 10px;
+    margin: 10px 40px;
     background: #4d4d4d;
     border-radius: 5px;
     padding: 6px;
@@ -127,16 +126,21 @@
 
 @media (max-width:992px),(max-device-width:992px) {
     .header__burger{
-        width: 30px;
+        width: 22px;
         cursor: pointer;
         margin: 5px;
+        position: absolute;
+        z-index: 6;
+        right: 5px;
+        top: 24px;
     }
 
     .header__burger > div{
         height: 3px;
-        background-color: #4d4d4d;
+        background-color: #fff;
         margin-bottom: 5px;
     }
+
 }
 
 @media (max-width:675px),(max-device-width:675px) {
@@ -145,7 +149,7 @@
     }
 }
 
-@media (max-width:400px),(max-device-width:400px) {
+@media (max-width:460px),(max-device-width:460px) {
     .header__title{
         font-size: 28px;
     }
@@ -162,5 +166,12 @@
     .header__logo::after{
         bottom: 5px;
         left: 70px;
+    }
+}
+
+@media (max-width:420px),(max-device-width:420px) {
+    .header__burger{
+        right: auto;
+        left: 10px;
     }
 }
