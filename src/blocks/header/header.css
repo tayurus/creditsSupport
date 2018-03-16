@@ -175,3 +175,11 @@
         left: 0px;
     }
 }
+
+@media (max-width:400px),(max-device-width:400px) {
+    .header__logo{
+        position: relative;
+        left: 15px;
+        width: auto;
+    }
+}

@@ -1,0 +1,84 @@
+doctype html
+html(lang="en")
+    include ../blocks/head/head.jade
+    body
+        include ../blocks/header/header.jade
+            
+        main
+        
+        
+                
+        section.container.container_categories-articles.container_width_85
+            .container.container_categories(hidden="true")
+                
+                .category
+                    .category__wrapper
+                        .category__arrow
+                        a.category__title(href="#") Документация
+                    .categories__links
+                        a.category__link(href="#") Статья 1
+                        a.category__link(href="#") Статья 2
+                        a.category__link(href="#") Статья 3
+                        .category
+                            .category__wrapper
+                                .category__arrow
+                                a.category__title(href="#") Подкатегория
+                            .categories__links
+                                a.category__link(href="#") Статья 1_1
+                                a.category__link(href="#") Статья 2_1
+                                a.category__link(href="#") Статья 3_1
+                        .category
+                            .category__wrapper
+                                .category__arrow
+                                a.category__title(href="#") Подкатегория
+                            .categories__links
+                                a.category__link(href="#") Статья 1_1
+                                a.category__link(href="#") Статья 2_1
+                                a.category__link(href="#") Статья 3_1
+
+                    
+            article.container.container_article.container_text
+                
+                .row.row_search-result
+                    .container__text.container__text_gray Querry: 
+                        b(id="query")  Contracts
+                    .container__text.container__text_gray Pages found: 
+                        b(id="search-count")  25
+                        
+                .container
+                    .row.row_items_start.row_wrap
+                        a.link.link_search-result(href="#") Contracts
+                        .container__text.container__text_gray.container__text_small Основы безопасности
+                    .container__text What is a 
+                        span.container__text.container__text_bold contract?
+                        | A contract is a collection of code (its functions) and data (its...
+                            
+                .container
+                    .row.row_items_start.row_wrap
+                        a.link.link_search-result(href="#") Contracts
+                        .container__text.container__text_gray.container__text_small Основы безопасности
+                    .container__text What is a 
+                        span.container__text.container__text_bold contract?
+                        | A contract is a collection of code (its functions) and data (its...
+                        
+                .container
+                    .row.row_items_start.row_wrap
+                        a.link.link_search-result(href="#") Contracts
+                        .container__text.container__text_gray.container__text_small Основы безопасности
+                    .container__text What is a 
+                        span.container__text.container__text_bold contract?
+                        | A contract is a collection of code (its functions) and data (its...
+                .container
+                    .row.row_items_start.row_wrap
+                        a.link.link_search-result(href="#") Contracts
+                        .container__text.container__text_gray.container__text_small Основы безопасности
+                    .container__text What is a 
+                        span.container__text.container__text_bold contract?
+                        | A contract is a collection of code (its functions) and data (its...
+                        
+    
+                    
+                
+                
+        
+        include ../blocks/footer/footer.jade

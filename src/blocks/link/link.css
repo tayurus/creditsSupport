@@ -8,3 +8,19 @@
     color: #000;
     border-bottom: 1px solid #000;
 }
+
+.link_big:hover{
+    color: #0786c1 !important;
+}
+
+.link_search-result{
+    margin-right: 20px;
+}
+
+.link_search-result{
+    color: #0786c1;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-decoration: underline !important;
+}

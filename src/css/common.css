@@ -11,12 +11,12 @@
 * {
     box-sizing: border-box;
     transition: .3s;
+    font-family: Montserrat;
 }
 
 body {
     margin: 0px;
     padding: 0px;
-    font-family: Montserrat;
     background-color: #f6f6f6;
 }
 
@@ -38,6 +38,14 @@ a:not(.button):hover {
 a{
     text-decoration: none;
     cursor: pointer;
+}
+
+.text_tomato{
+    color: tomato;
+}
+
+.center{
+    margin: 0px auto;
 }
 
 details {
