@@ -24,9 +24,10 @@ form{
     max-width: 450px;
 }
 
-img{
-    max-width: 80%;
+.container_text img{
+    max-width: 95%;
     display: block;
+    height: 100%;
     margin: 0px auto;
 }
 
@@ -36,6 +37,7 @@ a:not(.button):hover {
 
 a{
     text-decoration: none;
+    cursor: pointer;
 }
 
 details {

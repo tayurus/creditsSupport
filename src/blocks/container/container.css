@@ -59,7 +59,7 @@
 .container_categories{
     width: 300px;
     position: sticky;
-    top: 100px;
+    top: 70px;
     overflow-y: auto;
     height: calc(100vh - 170px);
 }
@@ -93,6 +93,7 @@
     background-color: #fff;
     padding: 25px;
     line-height: 24px;
+    border-radius: 10px;
 }
 
 .container_article{
@@ -109,6 +110,7 @@
 .container_categories-mobile{
     display: none;
     position: fixed;
+    height: 100vh;
     left: 0%;
     top: 0%;
     z-index: 1000;
@@ -124,6 +126,11 @@
 @media (max-width:992px),(max-device-width:992px) {
     .container_categories{
         display: none;
+    }
+
+    .container_width_85{
+        width: 100%;
+        max-width: 100%;
     }
 }
 

@@ -172,6 +172,6 @@
 @media (max-width:420px),(max-device-width:420px) {
     .header__burger{
         right: auto;
-        left: 10px;
+        left: 0px;
     }
 }

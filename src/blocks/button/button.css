@@ -64,6 +64,20 @@
     background-color: #0095d9;
 }
 
+.button_toTop{
+    background-size: cover;
+    border: none;
+    position: fixed;
+    right: 1%;
+    bottom: 10px;
+    transition: 0.3s;
+    background: transparent;
+    font-size: 2em;
+    z-index: 3;
+    color: #676767;
+    font-weight: 900;
+}
+
 @media (max-width:370px),(max-device-width:370px) {
     .button_blue{
         padding: 20px 30px;
