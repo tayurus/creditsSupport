@@ -28,3 +28,7 @@
 .row_wrap{
     flex-wrap: wrap;
 }
+
+.row_pagination-search{
+    max-width: 300px;
+}
