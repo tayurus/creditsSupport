@@ -57,6 +57,36 @@ details {
     display: block;
 }
 
+.center{
+    margin: 0px auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+/* for captcha */
+.captcha div {
+    width: 300px;
+    margin: 0px auto;
+}
+
+
+@media(max-width: 370px), (max-device-width: 370px){
+    .captcha {
+        width: 250px;
+        transform: scale(0.75) translateX(-25px);
+    }
+        .captcha div {
+            margin: auto;
+        }
+}
+.captcha div {
+    width: 300px;
+    margin: 0 auto;
+}
+
 /* details[open] > summary{
     color: tomato;
 }
